@@ -1,0 +1,211 @@
+[{
+        "id": 1,
+        "title": "Inside the ocean",
+        "category": "Nature",
+        "tags": ["dolphins", "ocean", "nature"],
+        "description": "A breathtaking view of the pretty dolphins",
+        "imageUrl": "Images/Nature/nature_1.jpg",
+        "Photographer": "Jeremy Bishop",
+        "likes": 150
+    },
+    {
+        "id": 2,
+        "title": "Snow-Capped Mountains",
+        "category": "Nature",
+        "tags": ["Mountains", "Snow", "Night"],
+        "description": "Snow capped mountains stand in their full glory.",
+        "imageUrl": "Images/Nature/nature_2.jpg",
+        "Photographer": "eberhard grossgasteiger",
+        "likes": 230
+    },
+    {
+        "id": 3,
+        "title": "Mountains Scenery",
+        "category": "Nature",
+        "tags": ["Mountains", "Snow", "photography"],
+        "description": "Snowy mountains peeking from the fog.",
+        "imageUrl": "Images/Nature/nature_3.jpg",
+        "Photographer": "Francisco Buduba",
+        "likes": 200
+    },
+    {
+        "id": 4,
+        "title": "Canyon",
+        "category": "Nature",
+        "tags": ["River", "Trees", "Canyon"],
+        "description": "A beautiful view of the canyon with trees along the banks",
+        "imageUrl": "Images/Nature/nature_4.jpg",
+        "Photographer": "Michael Block",
+        "likes": 125
+    },
+    {
+        "id": 5,
+        "title": "A field of Flowers",
+        "category": "Nature",
+        "tags": ["Flowers", "Field", "photography"],
+        "description": "A field filled with beautiful red flowers",
+        "imageUrl": "Images/Nature/nature_5.jpg",
+        "Photographer": "RoonZ",
+        "likes": 110
+    },
+    {
+        "id": 6,
+        "title": "Majestic Mountains",
+        "category": "Nature",
+        "tags": ["Mountains", "lake", "photography"],
+        "description": "A fantastic view across the lake.",
+        "imageUrl": "Images/Nature/nature_6.jpg",
+        "Photographer": "Francesco Ungaro",
+        "likes": 300
+    },
+    {
+        "id": 7,
+        "title": "The dense forest",
+        "category": "Nature",
+        "tags": ["Trees", "grenery", "Forest"],
+        "description": "A beautiful view of the sunlight peeking through the canopy formed by the trees.",
+        "imageUrl": "Images/Nature/nature_7.jpg",
+        "Photographer": "Rudolf Jakkel",
+        "likes": 123
+    },
+    {
+        "id": 8,
+        "title": "Highway",
+        "category": "Aerial",
+        "tags": ["Road", "Trees", "photography"],
+        "description": "A captivating view of a highway passing through the lush green mountains.",
+        "imageUrl": "Images/Aerial/aerial_1.jpg",
+        "Photographer": "Deva Darshan",
+        "likes": 128
+    },
+    {
+        "id": 9,
+        "title": "Dubai",
+        "category": "Aerial",
+        "tags": ["Dubai", "Burj kalifa", "photography"],
+        "description": "The majestic Burj Kalifa standing in its full glory.",
+        "imageUrl": "Images/Aerial/aerial_2.jpg",
+        "Photographer": "Ivan Siarbolin",
+        "likes": 245
+    },
+    {
+        "id": 10,
+        "title": "Mountain Trail",
+        "category": "Aerial",
+        "tags": ["Snow", "Road", "photography"],
+        "description": "A beautiful scene of the zig-zag highway running through snowy mounatins.",
+        "imageUrl": "Images/Aerial/aerial_3.jpg",
+        "Photographer": "Ivica Džambo",
+        "likes": 700
+    },
+    {
+        "id": 11,
+        "title": "Coast",
+        "category": "Aerial",
+        "tags": ["Ocean", "Road", "photography"],
+        "description": "A highway passing beside the beautiful coastline.",
+        "imageUrl": "Images/Aerial/aerial_4.jpg",
+        "Photographer": "Lukas Rodriguez",
+        "likes": 260
+    },
+    {
+        "id": 12,
+        "title": "ShipWrek",
+        "category": "Aerial",
+        "tags": ["Ship", "Sea", "photography"],
+        "description": "The wooden ship that sank in the shallow waters near the Groto National Park in Canada.",
+        "imageUrl": "Images/Aerial/aerial_5.jpg",
+        "Photographer": "Marc Coenen",
+        "likes": 453
+    },
+    {
+        "id": 13,
+        "title": "Highway to heaven",
+        "category": "Aerial",
+        "tags": ["Desert", "Highway", "photography"],
+        "description": "A straight piece of highway running through the barren deserts.",
+        "imageUrl": "Images/Aerial/aerial_6.jpeg",
+        "Photographer": "Carlos César",
+        "likes": 179
+    },
+    {
+        "id": 14,
+        "title": "Aerial city",
+        "category": "Aerial",
+        "tags": ["City", "Buildings", "photography"],
+        "description": "A beautiful view of the city from the tallest point.",
+        "imageUrl": "Images/Aerial/aerial_7.jpg",
+        "Photographer": "Ricky Esquivel",
+        "likes": 146
+    },
+    {
+        "id": 15,
+        "title": "Stars in the night sky",
+        "category": "Astro",
+        "tags": ["Stars", "Night", "photography"],
+        "description": "Billions of stars shining in the majestic universe.",
+        "imageUrl": "Images/Astro/astro_1.jpg",
+        "Photographer": "Adrian Lang",
+        "likes": 345
+    },
+    {
+        "id": 16,
+        "title": "Mountains",
+        "category": "Astro",
+        "tags": ["stars", "night", "photography"],
+        "description": "The night sky from the top of the mountain.",
+        "imageUrl": "Images/Astro/astro_2.jpg",
+        "Photographer": "Denis Ba",
+        "likes": 287
+    },
+    {
+        "id": 17,
+        "title": "A look into the Galaxy",
+        "category": "Astro",
+        "tags": ["Galaxy", "night", "photography"],
+        "description": "The majestic view of the Galaxy peeking right at you.",
+        "imageUrl": "Images/Astro/astro_3.jpg",
+        "Photographer": "Wilson Mallmann",
+        "likes": 398
+    },
+    {
+        "id": 18,
+        "title": "Aurora Borealis",
+        "category": "Astro",
+        "tags": ["Aurora", "Snow", "photography"],
+        "description": "The shiny aurora visible alongside the stars.",
+        "imageUrl": "Images/Astro/astro_4.jpg",
+        "Photographer": "Erik Schereder",
+        "likes": 800
+    },
+    {
+        "id": 19,
+        "title": "Norhern Lights",
+        "category": "Astro",
+        "tags": ["Aurora", "Night", "photography"],
+        "description": "Beautiful view of the majestic aurora.",
+        "imageUrl": "Images/Astro/astro_5.jpg",
+        "Photographer": "Nicholas Espinosa",
+        "likes": 578
+    },
+    {
+        "id": 20,
+        "title": "Galaxy",
+        "category": "Astro",
+        "tags": ["Milky Way", "Stars", "photography"],
+        "description": "A look into the Milky way to make your day.",
+        "imageUrl": "Images/Astro/astro_6.jpg",
+        "Photographer": "Tim O'Farrell",
+        "likes": 980
+    },
+    {
+        "id": 21,
+        "title": "Night sky",
+        "category": "Astro",
+        "tags": ["Night", "Sky", "photography"],
+        "description": "A mesmerizing view of the sky illuminated by the stars at night.",
+        "imageUrl": "Images/Astro/astro_7.jpg",
+        "Photographer": "Vadimsadovski",
+        "likes": 569
+    }
+]

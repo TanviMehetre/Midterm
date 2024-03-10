@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapCatalog - Explore Photos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Add CSS for photo cards */
+        .photo-card {
+            width: calc(33.33% - 20px); /* Set width for each card to fit three in a row with margins */
+            margin: 10px; /* Set margin to create gaps between cards */
+            float: left; /* Float cards left to align them horizontally */
+            border: 1px solid #ccc; /* Add a border for visual separation */
+            border-radius: 5px; /* Add rounded corners for aesthetics */
+            overflow: hidden; /* Hide any content overflowing from the card */
+            max-width: 300px; /* Limit the maximum width of the card */
+        }
+
+        /* Ensure images inside cards fill the entire space */
+        .photo-card img {
+            width: 100%;
+            height: 150px; /* Set a fixed height for consistency */
+            object-fit: cover; /* Ensure the image covers the entire area */
+        }
+
+        /* Adjust for smaller screens to maintain responsiveness */
+        @media (max-width: 768px) {
+            .photo-card {
+                width: calc(50% - 20px); /* Show two cards per row on smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Carousel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nature.html">Nature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aerial.html">Aerial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="astro.html">Astro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Snap Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="authors.html">Authors</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <!-- Filter and Sort Controls -->
+        <div class="row mb-4">
+            <!-- Filter by Category -->
+            <div class="col-md-6">
+                <h5>Filter by Category:</h5>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-secondary category-filter" data-category="All">All Categories</button>
+                    <button type="button" class="btn btn-secondary category-filter" data-category="Nature">Nature</button>
+                    <button type="button" class="btn btn-secondary category-filter" data-category="Aerial">Aerial</button>
+                    <button type="button" class="btn btn-secondary category-filter" data-category="Astro">Astro</button>
+                    <!-- Add more category buttons as needed -->
+                </div>
+            </div>
+            <!-- Filter by Tag -->
+            <div class="col-md-6">
+                <h5>Filter by Tag:</h5>
+                <select id="tag-filter" class="custom-select">
+                    <option value="all">All Tags</option>
+                    <option value="dolphins">Dolphins</option>
+                    <option value="ocean">Ocean</option>
+                    <option value="nature">Nature</option>
+                    <option value="Mountains">Mountains</option>
+                    <option value="Snow">Snow</option>
+                    <option value="Night">Night</option>
+                    <option value="River">River</option>
+                    <option value="Trees">Trees</option>
+                    <option value="Canyon">Canyon</option>
+                    <option value="Flowers">Flowers</option>
+                    <option value="Field">Field</option>
+                    <option value="lake">Lake</option>
+                    <option value="grenery">Grenery</option>
+                    <option value="Forest">Forest</option>
+                    <option value="Road">Road</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Burj kalifa">Burj Khalifa</option>
+                    <option value="Desert">Desert</option>
+                    <option value="City">City</option>
+                    <option value="Buildings">Buildings</option>
+                    <!-- Add more tag options as needed -->
+                </select>
+            </div>
+        </div>
+        <!-- Photo Grid -->
+        <div id="photo-container" class="row clearfix">
+            <!-- Photo cards will be dynamically generated here -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript and custom script -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
